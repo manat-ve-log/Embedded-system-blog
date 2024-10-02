@@ -28,7 +28,7 @@ interface CardProps{
   children?: ReactNode;
 }
 
-const Codebox:React.FC<CardProps> = ({code,size,margin='5px',children}) => {
+const Codebox:React.FC<CardProps> = ({size,margin='5px',children}) => {
   const {width} = useWindowSize();
   const styleCard: React.CSSProperties = {
     width: 'auto',

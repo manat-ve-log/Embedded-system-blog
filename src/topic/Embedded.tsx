@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 // import './Embedded.css'
 // import './styleall.css'
 function Embedded() {

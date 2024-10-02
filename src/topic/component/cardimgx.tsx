@@ -22,7 +22,7 @@ const imgStyle: React.CSSProperties = {
   boxShadow:'0 0 5px 2px #999999',
 };
 
-const cardimgx:React.FC<imgx>=({img,alt,children})=> {
+const cardimgx:React.FC<imgx>=({img,alt})=> {
   return (
     <div style={style}>
       <img src={img} alt={alt} style={imgStyle}/>
